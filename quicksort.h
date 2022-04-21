@@ -97,9 +97,7 @@ void name (type * restrict data, int_fast32_t nElems) {                         
     Recursive_##name (data, 0, nElems - 1);                                                             \
 }
 
-#endif
+#endif /* #ifdef __cplusplus */
 
+#endif /* #ifndef __QUICKSORT_C_DECL_H */
 
-
-
-#endif
