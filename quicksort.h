@@ -11,10 +11,6 @@ extern "C" {
 void quicksort(int * restrict arr, int nElems);
 
 
-
-
-
-
 #ifdef __cplusplus
 }
 #endif
