@@ -1,5 +1,5 @@
-#ifndef __QUICKSORT_C_DECL_H
-#define __QUICKSORT_C_DECL_H
+#ifndef __QUICKSORT_DEF_C_DECL_H
+#define __QUICKSORT_DEF_C_DECL_H
 
 #include <stdint.h>
 
