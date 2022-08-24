@@ -8,7 +8,7 @@ extern "C" {
 
 
 /* integer sort */
-void quicksort(int * restrict arr, int nElems);
+int* quicksort(int * arr, int nElems);
 
 
 #ifdef __cplusplus
