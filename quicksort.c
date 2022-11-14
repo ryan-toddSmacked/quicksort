@@ -16,12 +16,11 @@
 static int istack[NSTACK] = { 0 };
 
 
-int* quicksort (int* arr, int nElems) {
+PTYPE* quicksort (PTYPE* arr, int nElems) {
     // Keep as integers
     int pivotIndex, diff, L, R, i, j, jstack = 0;
 
-    // These should be the array type being sorted
-    int pivot, t;
+    PTYPE pivot, t;
 
 
     if (nElems < 2) return; 
